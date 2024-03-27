@@ -1,0 +1,81 @@
+# {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.container{
+    width:400px;
+    padding:2rem 1rem;
+    margin:5px auto;
+    background-color:transparent;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 25px black;
+    margin-top: 7rem;
+    margin-left: 250px;
+
+}
+h2{
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 1.2rem;
+}
+h3{
+    font-size: 1rem;
+    color:brown;
+
+}
+form input{
+    width: 92%;
+    height: 50px;
+    outline: none;
+    border:1px 20px #fff;
+    padding:12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background:#f5eded;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding:10px 0;
+    border-radius: 20px;
+    outline:none;
+    border: none;
+    width:90%;
+    background-color:rgb(190, 149, 149);
+    cursor:pointer;
+}
+button:hover{
+    background: rgb(221, 195, 207);
+
+}
+input:focus{
+    border:1px solid rgb(220, 80, 126);
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height:1rem;
+    width:1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+
+}
+.terms a{
+    color:blue;
+    text-decoration: underline;
+}
+.member{
+    font-size: 1rem;
+    margin-top: 1.4rem;
+}
+.member a{
+    color:blue;
+    text-decoration: underline;
+}

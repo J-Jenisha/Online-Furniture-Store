@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet"href="orderpage.css">
+      </head>
+      <style>
+      body {
+        background-image:url('https://media.istockphoto.com/id/1217702156/photo/asian-postman-deliveryman-wearing-mask-carry-small-box-deliver-to-customer-in-front-of-door.jpg?s=612x612&w=0&k=20&c=rqniTEtz1C0EwOipHl6YxwkX9mZe1YTrFiGjYoyIy5U=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+       }
+       </style>
+<body>
+  
+
+    <h2>Place your order here...</h2>
+    <div class="row">
+      <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+          
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="enter your name">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="xxxxx@gmail.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="door no, street">
+                <label for="city"><i class="fa fa-institution"></i> District</label>
+                <input type="text" id="city" name="city" placeholder="enter your district">
+    
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <select name="state">
+                      <option value="state">choose state</option>
+                      <option value="state">Tamil Nadu</option>
+                      <option value="state">Kerala</option>
+                      <option value="state">Andhrapradesh</option>
+                      <option value="state">Karnataka</option>
+                      <option value="state">Telungana</option>
+                  
+                  </select>
+      
+                  </div>
+                  <div class="col-50">
+                    <label for="zip">Zip code</label>
+                    <input type="text" id="zip" name="zip" placeholder="xxx xxx">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa fa-cc-visa" style="color:navy;"></i>
+                  <i class="fa fa-cc-amex" style="color:blue;"></i>
+                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                  <i class="fa fa-cc-discover" style="color:orange;"></i>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="Name on card">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="yyyy">
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="xxx">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+            <button><a href="feedback.html"target="_self"><b>Submit</b></a></button>
+          
+          </form>
+        </div>
+      </div>
+      <div class="col-25">
+        
+      </div>
+    </div>
+    
+    </body>
+    </html>
